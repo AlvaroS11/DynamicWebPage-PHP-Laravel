@@ -7,16 +7,24 @@
                     <div class="py-6 px-5">
                         <div>
                         <!-- TERMINAR -->
-                            <img src="/images/illustration-3.png" alt="Blog Post illustration" class="rounded-xl">
+                        @if ( !empty($post->imgs[0]))
+                        <img src="{{asset('storage/postImages/'. $post->imgs[0]->file_path)}}" alt="Blog Post illustration" class="rounded-xl">
+                        @endif
+                       
                         </div>
 
                         <div class="mt-4 flex flex-col justify-between">
 
-                        @foreach ($post->categories as $object)
+                       
                         <div class="space-x-2">
-                            <a href="/categories/{{$object->slug}}"
-                                class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
-                                style="font-size: 10px">{{$object->name}}</a>
+                            @foreach ($post->categories as $category)
+                            <a href="/categories/{{$category->slug}}" 
+                            class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold" >
+                            {{$category -> name}}
+                            </a>
+                            @endforeach
+                                
+                                <a style="font-size: 10px">{{$post->name}}</a>
 
                                 <div class="mt-2 flex flex-col justify-between">
                                     <header>
@@ -26,19 +34,22 @@
                                             </h1>
         
                                             <span class="mt-2 block text-gray-400 text-xs">
-                                                Published <time> {{$object->created_at}}</time>
+                                                Published <time> {{$post->created_at->diffForHumans()}}</time>
                                             </span>
                                         </div>
                                     </header>
         
                                     <footer class="flex justify-between items-center mt-8">
                                         <div class="flex items-center text-sm">
-                                            <img src="/images/lary-avatar.svg" alt="Lary avatar">
+                                            @if ( !is_null($post->user->file_path))
+                                            <img src=" {{asset('storage/avatars/'. $post->user->file_path )}}" alt="AVATAR" width="40" height="40" >
+                                            @endif
                                             <div class="ml-3">
                                                 @if ($post->user != null)
                                                 <h5 class="font-bold">{{$post->user->name}}</h5>
+                                                <h6> {{$post->user->me}}</h6>
                                                 @endif
-                                                <h6>Mascot at Laracasts</h6>
+                                                
                                             </div>
                                         </div>
         
@@ -54,7 +65,7 @@
                       </div>
                                      
                         </div>
-                        @endforeach
+                 
          </div>
         </a>
  </article>

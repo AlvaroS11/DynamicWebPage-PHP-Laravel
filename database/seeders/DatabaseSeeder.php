@@ -4,6 +4,9 @@ namespace Database\Seeders;
 
 use App\Models\Categories;
 use App\Models\Category;
+use App\Models\Category_post;
+use App\Models\Comment;
+use App\Models\Posts_imgs;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -26,7 +29,10 @@ class DatabaseSeeder extends Seeder
 
         User::factory()->create(([
             'id'=>'1',
-            'name'=>'XPrint'
+            'name'=>'XPrint',
+            'file_path'=>'XPrint.png',
+            'password'=>'xprint',
+            'email'=>'xprint@xprint.xprint'
         ]));
          \App\Models\User::factory(10)->create();
 
@@ -40,25 +46,17 @@ class DatabaseSeeder extends Seeder
              'slug'=> 'carAccesories'
          ]);
 
-         $writer = User::factory()->create();
-         $post = Post::factory()->create(([
-            'user_id' => $writer->id,
-        ]));
-
-         \App\Models\Category_post::create([
-             'category_id' => '1',
-             'post_id'=> $post->id
-         ]);
+         Category::create([
+            'name'=> 'Other',
+            'slug'=> 'other'
+        ]);
 
 
-         $writer = User::factory()->create();
-         $post = Post::factory()->create(([
-            'user_id' => $writer->id,
-        ]));
+       
 
          \App\Models\Category_post::create([
              'category_id' => $carAccesories->id,
-             'post_id'=> $post->id
+             'post_id'=> '2'
          ]);
 
          \App\Models\Category_post::create([
@@ -70,12 +68,11 @@ class DatabaseSeeder extends Seeder
             'category_id' => $carAccesories->id,
             'post_id'=> Post::factory()->create()->id
         ]);
+        Category_post::factory(10)->create();
+        Comment::factory(10)->create();
+        Posts_imgs::factory(50)->create();
 
-        
-
-
-
-         
+       
 
 
     }

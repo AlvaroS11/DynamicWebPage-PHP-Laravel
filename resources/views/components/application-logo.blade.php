@@ -1,0 +1,1 @@
+<img src="/images/logo.png" alt="XPrint Logo"   width="100" height="40" >

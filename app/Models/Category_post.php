@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Category_post extends Model
 {
     protected $table = 'category_post';
+    protected $primaryKey = 'category_id_post_id';
+    public $incrementing = false;
 
     use HasFactory;
     

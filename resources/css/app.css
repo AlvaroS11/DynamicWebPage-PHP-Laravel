@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.slides {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}

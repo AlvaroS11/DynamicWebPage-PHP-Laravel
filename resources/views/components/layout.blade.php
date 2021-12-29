@@ -12,16 +12,31 @@
         <nav class="md:flex md:justify-between md:items-center">
             <div>
                 <a href="/">
-                    <img src="/images/logo.png" alt="Laracasts Logo" width="165" height="16">
+                    <img src="/images/logo.png" alt="XPrint Logo" width="165" height="16">
                 </a>
             </div>
 
-            <div class="mt-8 md:mt-0">
+            <div class="mt-8 md:mt-0 px-2 py-2">
                 <a href="/" class="text-xs font-bold uppercase">Home Page</a>
 
-                <a href="#" class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">
-                    Subscribe for Updates
-                </a>
+                
+
+                @if (Route::has('login'))
+                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                    @auth
+                        <a href="{{ url('/dashboard') }}" class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">Dashboard</a>
+                    @else
+                        <a href="{{ route('login') }}" class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">Log in</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}" class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">Register</a>
+                        @endif
+                    @endauth
+                </div>
+                @endif
+
+                
+                
             </div>
         </nav>
 
@@ -39,7 +54,7 @@
                     <form method="POST" action="#" class="lg:flex text-sm">
                         <div class="lg:py-3 lg:px-5 flex items-center">
                             <label for="email" class="hidden lg:inline-block">
-                                <img src="/images/mailbox-icon.svg" alt="mailbox letter">
+                                <img src="/images/mailbox.png" width="30" alt="mailbox letter">
                             </label>
 
                             <input id="email" type="text" placeholder="Your email address"

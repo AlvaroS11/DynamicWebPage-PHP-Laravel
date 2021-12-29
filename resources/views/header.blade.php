@@ -2,11 +2,13 @@
             <h1 class="text-4xl">
                 Latest <span class="text-blue-500">3D printed objects</span> News
             </h1>
+            <br> 
+            <h2 class="inline-flex mt-2">By Álvaro García Sierra   </h2>
+            <br>
+             <h3 class="inline-flex mt-2"> <img src="/images/alvaro-head.png"
+                alt="Head of Alvaro the creator" width="45" height="36">   </h3>
 
-            <h2 class="inline-flex mt-2">By Álvaro García Sierra <img src="/images/lary-head.svg"
-                                                               alt="Head of Lary the mascot"></h2>
-
-            <p class="text-sm mt-14">
+            <p class="text-sm mt-2">
                 Welcome to XPrint! Where you can find the best 3D printed gadgets!
             </p>
 

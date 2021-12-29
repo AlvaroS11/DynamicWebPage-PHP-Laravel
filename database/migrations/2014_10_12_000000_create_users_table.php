@@ -21,15 +21,17 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
-            $table->integer('stars');
+            $table->integer('stars')->default(0);
 
             $table->boolean('administrator')->default(false);
 
             //Profile pagina
-            $table->string('username')->unique();
-            $table->date('birthday');
+            $table->string('username')->unique()->nullable();
+            $table->date('birthday')->nullable();
             //imageAvatar
             $table->string('me')->nullable();
+            $table->string('file_path')->default('default.png');
+
         });
     }
 

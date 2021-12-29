@@ -13,10 +13,9 @@
             @foreach ($posts->skip(1) as $model)
             <x-card :post="$model" class="col-span-2"/>
             @endforeach
+            </div>
             
 
-            <div class="lg:grid lg:grid-cols-3">
-            </div> 
            
         @else
             <p class="text-center"> NO PRODUCTS YET. PLEASE TRY LATER. </p>
