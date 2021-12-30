@@ -9,7 +9,7 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'body', 'price'];
+    protected $fillable = ['title', 'body', 'price', 'stars'];
 
     public function category(){
         return $this->belongsTo(Category::class);
@@ -29,6 +29,10 @@ class Post extends Model
     public function comments()
     {
         return $this->hasMany(Comment::class);
+    }
+    public function postCat()
+    {
+        return $this->hasMany(Category_post::class);
     }
 
 }

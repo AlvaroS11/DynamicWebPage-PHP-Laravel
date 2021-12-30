@@ -13,6 +13,7 @@ class Category_post extends Model
 
     use HasFactory;
     
+    protected $fillable = ['category_id', 'post_id'];
 
     public function posts(){
       

@@ -64,7 +64,7 @@
 
                             <div class="grid grid-rows-2 gap-6">
                                 <div>
-                                    <x-label for="file_path" :value="__('File Path(optional)')" />
+                                    <x-label for="file_path" :value="__('Avatar(optional)')" />
                                     <x-input id="file_path" class="block mt-1 w-full" type="file" name="file_path" value="{{ auth()->user()->file_path }}" autofocus />
                                 </div>
                             </div>

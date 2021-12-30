@@ -9,6 +9,7 @@ use App\Models\Comment;
 use App\Models\Posts_imgs;
 use App\Models\Post;
 use App\Models\User;
+use App\Models\Faq;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -72,7 +73,7 @@ class DatabaseSeeder extends Seeder
         Comment::factory(10)->create();
         Posts_imgs::factory(50)->create();
 
-       
+       Faq::factory(10)->create();
 
 
     }
