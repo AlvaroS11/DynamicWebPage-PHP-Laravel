@@ -26,7 +26,9 @@ class PostFactory extends Factory
             'body' => $this->faker->paragraph,
             'price' => $this->faker->numberBetween(1,10),
             'stars' => $this->faker->numberBetween(0,5),
-            'available' => $this->faker->boolean
+            'available' => $this->faker->boolean,
+            'user_id' => $this->faker->numberBetween(1,11),
+   
         ];
     }
 }

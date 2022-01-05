@@ -6,6 +6,7 @@ use App\Models\Categories;
 use App\Models\Category;
 use App\Models\Category_post;
 use App\Models\Comment;
+use App\Models\Contact;
 use App\Models\Posts_imgs;
 use App\Models\Post;
 use App\Models\User;
@@ -32,10 +33,25 @@ class DatabaseSeeder extends Seeder
             'id'=>'1',
             'name'=>'XPrint',
             'file_path'=>'XPrint.png',
-            'password'=>'xprint',
+            'password'=> bcrypt('Password!321'),
             'email'=>'xprint@xprint.xprint'
         ]));
+
+        
+        User::factory()->create(([
+            'id'=>'2',
+            'name'=>'admin',
+            'file_path'=>'XPrint.png',
+            'password'=> bcrypt('Password!321'),
+            'email'=>'admin@ehb.be',
+            'administrator' => '1'
+        ]));
+
          \App\Models\User::factory(10)->create();
+
+         Post::factory(5)->create([
+            'user_id'=>'1',
+        ]);
 
         $shisha = Category::create([
              'name'=>'Shisha',
@@ -69,12 +85,12 @@ class DatabaseSeeder extends Seeder
             'category_id' => $carAccesories->id,
             'post_id'=> Post::factory()->create()->id
         ]);
-        Category_post::factory(10)->create();
+        Category_post::factory(25)->create();
         Comment::factory(10)->create();
         Posts_imgs::factory(50)->create();
 
        Faq::factory(10)->create();
-
-
+        Contact::factory(10)->create();
+    
     }
 }

@@ -14,14 +14,26 @@
                         </div>
 
                         <div class="mt-4 flex flex-col justify-between">
-
+                          
                        
                         <div class="space-x-2">
+
+                          
                             @foreach ($post->categories as $category)
-                            <a href="/categories/{{$category->slug}}" 
-                            class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold" >
-                            {{$category -> name}}
-                            </a>
+                           <!--  <?php $index = "0";?>
+                                @if($category != ($post->categories[0]))
+                                    <?php
+                                        $previous = $post->categories[$index];
+                                        if($previous != $category)
+                                            echo "Detected repeated";
+                                            $index ++;
+                                    ?>
+                                    @endif
+                                 -->
+                                <a href="/categories/{{$category->slug}}" 
+                                 class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold" >
+                                 {{$category -> name}}
+                                </a>
                             @endforeach
                                 
                                 <a style="font-size: 10px">{{$post->name}}</a>
@@ -40,7 +52,8 @@
                                     </header>
         
                                     <footer class="flex justify-between items-center mt-8">
-                                        <div class="flex items-center text-sm">
+                                        <a href="/author/{{$post->user_id}}">
+                                        <div class="flex items-center text-sm" href="/posts/{{$post->id}}">
                                             @if ( !is_null($post->user->file_path))
                                             <img src=" {{asset('storage/avatars/'. $post->user->file_path )}}" alt="AVATAR" width="40" height="40" >
                                             @endif
@@ -55,8 +68,8 @@
         
                                         <div>
                                             <a href="/posts/{{$post->id}}"
-                                               class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8" >
-                                                Read More
+                                               class="transition-colors duration-300 text-xs font-semibold text-center bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-10" >
+                                                ReadMore
                                             </a>
                                         </div>
                                     </footer>

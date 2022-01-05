@@ -11,6 +11,15 @@
             <p class="text-sm mt-2">
                 Welcome to XPrint! Where you can find the best 3D printed gadgets!
             </p>
+            
+            <div class="mt-10">
+                <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full">
+                    <a href="/about">
+                    <button class="bg-blue-500 text-white uppercase font-semibold text-xs py-2 px-10 rounded-2xl hover:bg-blue-600"> About</button>
+                </a>
+                </div>
+            </div>
+
 
             <div class="space-y-2 lg:space-y-0 lg:space-x-4 mt-8">
                 <!--  Category -->

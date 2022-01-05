@@ -26,8 +26,9 @@ class Category_postFactory extends Factory
     {
         return [
             //
-            'category_id' => '3',
+            'category_id' => $this->faker->numberBetween(1,3),
             'post_id' => $this->faker->numberBetween(1,12),
+            
             
         ];
     }

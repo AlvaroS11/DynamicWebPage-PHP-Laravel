@@ -31,6 +31,7 @@ class UserFactory extends Factory
             'username' => $this->faker->unique()->userName(),
             'birthday' => $this->faker->date(),
             'stars' => $this->faker->numberBetween(0,5),
+            'me' => $this->faker->sentence,
         ];
     }
 
