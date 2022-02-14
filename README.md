@@ -1,30 +1,46 @@
 This project was made for a class called "WebIntegration" in Brussels.
 It is a professional dynamic webpage with the following features:
 
-    Login system
-        Users can log in
-        Visitors can create a new account
-        Users may or may not be an administrator
-        Only an administrator can promote another user to administrator status (or create a new user that is an admin)
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+## Login system
+  - Users can log in
+  - Visitors can create a new account
+  - Users may or may not be an administrator
+  - Only an administrator can promote another user to administrator status (or create a new user that is an admin)
         
+        
+<a href="https://user-images.githubusercontent.com/72804203/153921401-87c8af7a-f1e4-4c42-9a8d-2f9b902d08f5.JPG"></a>
         ![login](https://user-images.githubusercontent.com/72804203/153921401-87c8af7a-f1e4-4c42-9a8d-2f9b902d08f5.JPG)
+       
 
 
         
-    Post
-        Users can upload post
-        Post can be made and edited on the same webpage
-        The posts have the following features:
-            Title
-            Body of the post
-            Multiple photos
-            Categories
+## Post
+   - Users can upload post
+   - Post can be made and edited on the same webpage
+   - The posts have the following features:
+            - Title
+            - Body of the post
+            - Multiple photos
+            - Categories
     
-    Search engine
-        Users can search for the post they want with a search box
-        Users can filter the post by the category
-        Users can view all the posts from a specific User/Author
+## Search engine
+   - Users can search for the post they want with a search box
+   - Users can filter the post by the category
+   - Users can view all the posts from a specific User/Author
         
+ <a href="https://user-images.githubusercontent.com/72804203/153921505-8daf2205-153e-427a-a88c-4293faf3af91.JPG"></a>
         ![searchtool](https://user-images.githubusercontent.com/72804203/153921505-8daf2205-153e-427a-a88c-4293faf3af91.JPG)
 
        
