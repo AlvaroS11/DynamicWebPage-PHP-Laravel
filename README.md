@@ -1,17 +1,6 @@
 This project was made for a class called "WebIntegration" in Brussels.
 It is a professional dynamic webpage with the following features:
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 ## Login system
   - Users can log in
@@ -64,7 +53,8 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
             Publishing date
             
             
-<a href="https://user-images.githubusercontent.com/72804203/153921575-3279cdd9-f6c1-44f9-b2c9-7407dc6c3ca6.JPG"></a>
+<a href="https://user-images.githubusercontent.com/72804203/153924837-e28501d0-23cc-40f4-af68-b079cdf94d32.JPG"></a>
+![posts](https://user-images.githubusercontent.com/72804203/153924837-e28501d0-23cc-40f4-af68-b079cdf94d32.JPG)
            
             
 ##  FAQ page
@@ -72,10 +62,17 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
    -  Admins can add, edit, and delete FAQ categories
    -  Admins can add, edit, and delete FAQ question and answer pairs
    - Every visitor of the website can view the FAQ page(s)
+
+![faq](https://user-images.githubusercontent.com/72804203/153925019-66549b98-59ba-482b-8995-58dda8aeab44.JPG)
+
         
 ##  Contact page
   - Visitors can fill out a contact form
   - The content of submitted forms will be sent to the administrators
+  - Form is error-safe
+
+![contact](https://user-images.githubusercontent.com/72804203/153925376-ab20c384-e7fe-404a-99bf-64487d21f0d0.JPG)
+
        
 ## More features   
   - Admins can reply to the submitted contact forms through the admin panel, the replies will be mailed to the original sender
