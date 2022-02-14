@@ -1,4 +1,59 @@
-THIS PROJECT WAS MADE WITH LARAVEL
+This project was made for a class called "WebIntegration" in Brussels.
+It is a professional dynamic webpage with the following features:
+
+    Login system
+        Users can log in
+        Visitors can create a new account
+        Users may or may not be an administrator
+        Only an administrator can promote another user to administrator status (or create a new user that is an admin)
+        
+    Post
+        Users can upload post
+        Post can be made and edited on the same webpage
+        The posts have the following features:
+            Title
+            Body of the post
+            Multiple photos
+            Categories
+    
+    Search engine
+        Users can search for the post they want with a search box
+        Users can filter the post by the category
+        Users can view all the posts from a specific User/Author
+       
+        
+    Profile pagina
+        Each user has their own publicly available profile page
+        A user can edit their own user data
+        The information shown is:
+            Username
+            Birthday
+            Avatar
+            Short 'about me' biography 
+            
+    Latest news
+        Admins can add, edit, and delete news items
+        Every visitor of the website can view the news posts
+        These news items have at least the following:
+            Title
+            Cover image
+            Content
+            Publishing date
+            
+    FAQ page
+        There is a list of questions and answers, grouped by categories
+        Admins can add, edit, and delete FAQ categories
+        Admins can add, edit, and delete FAQ question and answer pairs
+        Every visitor of the website can view the FAQ page(s)
+        
+    Contact page
+        Visitors can fill out a contact form
+        The content of submitted forms will be sent to the administrators
+
+
+
+
+THIS PROJECT WAS MADE WITH LARAVEL:
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
