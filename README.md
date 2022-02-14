@@ -96,6 +96,12 @@ It is a professional dynamic webpage with the following features:
   - Users can pose questions that might be added to the FAQ
   - Admins can add answers to the posed FAQ questions through the admin panel
 
+
+## Steps for setting up the project environment (in folder "webIntegrationProject"):
+	- Create mysql database "webintegrationproject" (null password).
+	- Run "composer update" so the vendor folder is downloaded.
+	- Run "php artisan migrate:fresh --seed" to create dummy data.
+	- run "php artisan storage:link" to create a symbolic link (make the files accesible from the web) if the files are not accesible.
 <br><br><br><br><br><br><br><br>
 
 
