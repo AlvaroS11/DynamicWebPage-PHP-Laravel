@@ -12,7 +12,7 @@ It is a professional dynamic webpage with the following features:
 <a href="https://user-images.githubusercontent.com/72804203/153921401-87c8af7a-f1e4-4c42-9a8d-2f9b902d08f5.JPG"></a>
         ![login](https://user-images.githubusercontent.com/72804203/153921401-87c8af7a-f1e4-4c42-9a8d-2f9b902d08f5.JPG)
        
-
+<br>
 
         
 ## Post
@@ -25,7 +25,7 @@ It is a professional dynamic webpage with the following features:
             - Categories
 
 ![upPost](https://user-images.githubusercontent.com/72804203/153925643-93e541dd-115b-4b6c-9b68-89dc1feca64f.JPG)
-
+<br>
     
 ## Search engine
    - Users can search for the post they want with a search box
@@ -35,7 +35,7 @@ It is a professional dynamic webpage with the following features:
  <a href="https://user-images.githubusercontent.com/72804203/153921505-8daf2205-153e-427a-a88c-4293faf3af91.JPG"></a>
         ![searchtool](https://user-images.githubusercontent.com/72804203/153921505-8daf2205-153e-427a-a88c-4293faf3af91.JPG)
 
-       
+ <br>      
         
 ## Profile pagina
    - Each user has their own publicly available profile page
@@ -45,7 +45,8 @@ It is a professional dynamic webpage with the following features:
             Birthday
             Avatar
             Short 'about me' biography 
-            
+<br>
+
 ##  Latest news
    - Admins can add, edit, and delete news items
    - Every visitor of the website can view the news posts
@@ -58,7 +59,7 @@ It is a professional dynamic webpage with the following features:
             
 <a href="https://user-images.githubusercontent.com/72804203/153924837-e28501d0-23cc-40f4-af68-b079cdf94d32.JPG"></a>
 ![posts](https://user-images.githubusercontent.com/72804203/153924837-e28501d0-23cc-40f4-af68-b079cdf94d32.JPG)
-           
+<br>           
             
 ##  FAQ page
    - There is a list of questions and answers, grouped by categories
@@ -67,7 +68,7 @@ It is a professional dynamic webpage with the following features:
    - Every visitor of the website can view the FAQ page(s)
 
 ![faq](https://user-images.githubusercontent.com/72804203/153925019-66549b98-59ba-482b-8995-58dda8aeab44.JPG)
-
+<br>
         
 ##  Contact page
   - Visitors can fill out a contact form
@@ -75,7 +76,7 @@ It is a professional dynamic webpage with the following features:
   - Form is error-safe
 
 ![contact](https://user-images.githubusercontent.com/72804203/153925376-ab20c384-e7fe-404a-99bf-64487d21f0d0.JPG)
-
+<br>
 ## Admin
    - Admins have full control over the webpage
    - Admins can upload new posts
@@ -88,17 +89,17 @@ It is a professional dynamic webpage with the following features:
 ![adminEdit](https://user-images.githubusercontent.com/72804203/153927574-fc6e7c81-983d-456b-8019-2907e9be813d.JPG)
 
 ![reviewEmails](https://user-images.githubusercontent.com/72804203/153927594-5b7b0e77-60a5-4004-8de0-98bac9464f60.JPG)
-
+<br>
 ## More features   
   - Admins can reply to the submitted contact forms through the admin panel, the replies will be mailed to the original sender
   - Users can leave comments on news posts
   - Users can pose questions that might be added to the FAQ
   - Admins can add answers to the posed FAQ questions through the admin panel
 
+<br><br><br><br><br><br><br><br>
 
 
-
-
+## Credits
 THIS PROJECT WAS MADE USING LARAVEL:
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
