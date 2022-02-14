@@ -6,7 +6,9 @@ It is a professional dynamic webpage with the following features:
         Visitors can create a new account
         Users may or may not be an administrator
         Only an administrator can promote another user to administrator status (or create a new user that is an admin)
-        ![login](https://user-images.githubusercontent.com/72804203/153921346-ed301b93-4719-47ab-b864-d3a336e49eab.JPG)
+        
+        ![login](https://user-images.githubusercontent.com/72804203/153921401-87c8af7a-f1e4-4c42-9a8d-2f9b902d08f5.JPG)
+
 
         
     Post
@@ -22,6 +24,9 @@ It is a professional dynamic webpage with the following features:
         Users can search for the post they want with a search box
         Users can filter the post by the category
         Users can view all the posts from a specific User/Author
+        
+        ![searchtool](https://user-images.githubusercontent.com/72804203/153921505-8daf2205-153e-427a-a88c-4293faf3af91.JPG)
+
        
         
     Profile pagina
@@ -36,11 +41,15 @@ It is a professional dynamic webpage with the following features:
     Latest news
         Admins can add, edit, and delete news items
         Every visitor of the website can view the news posts
-        These news items have at least the following:
+        These news items have the following:
             Title
-            Cover image
+            Cover images
             Content
             Publishing date
+            
+            ![posts](https://user-images.githubusercontent.com/72804203/153921575-3279cdd9-f6c1-44f9-b2c9-7407dc6c3ca6.JPG)
+
+           
             
     FAQ page
         There is a list of questions and answers, grouped by categories
