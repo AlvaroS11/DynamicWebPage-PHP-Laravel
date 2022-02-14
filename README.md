@@ -45,48 +45,49 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
        
         
-    Profile pagina
-        Each user has their own publicly available profile page
-        A user can edit their own user data
-        The information shown is:
+## Profile pagina
+   - Each user has their own publicly available profile page
+   - A user can edit their own user data
+   - The information shown is:
             Username
             Birthday
             Avatar
             Short 'about me' biography 
             
-    Latest news
-        Admins can add, edit, and delete news items
-        Every visitor of the website can view the news posts
-        These news items have the following:
+##  Latest news
+   - Admins can add, edit, and delete news items
+   - Every visitor of the website can view the news posts
+   - These news items have the following:
             Title
             Cover images
             Content
             Publishing date
             
-            ![posts](https://user-images.githubusercontent.com/72804203/153921575-3279cdd9-f6c1-44f9-b2c9-7407dc6c3ca6.JPG)
-
+            
+<a href="https://user-images.githubusercontent.com/72804203/153921575-3279cdd9-f6c1-44f9-b2c9-7407dc6c3ca6.JPG"></a>
            
             
-    FAQ page
-        There is a list of questions and answers, grouped by categories
-        Admins can add, edit, and delete FAQ categories
-        Admins can add, edit, and delete FAQ question and answer pairs
-        Every visitor of the website can view the FAQ page(s)
+##  FAQ page
+   - There is a list of questions and answers, grouped by categories
+   -  Admins can add, edit, and delete FAQ categories
+   -  Admins can add, edit, and delete FAQ question and answer pairs
+   - Every visitor of the website can view the FAQ page(s)
         
-    Contact page
-        Visitors can fill out a contact form
-        The content of submitted forms will be sent to the administrators
+##  Contact page
+  - Visitors can fill out a contact form
+  - The content of submitted forms will be sent to the administrators
        
-    More features   
-    Admins can reply to the submitted contact forms through the admin panel, the replies will be mailed to the original sender
-    Users can leave comments on news posts
-    Users can pose questions that might be added to the FAQ
-    Admins can add answers to the posed FAQ questions through the admin panel
+## More features   
+  - Admins can reply to the submitted contact forms through the admin panel, the replies will be mailed to the original sender
+  - Users can leave comments on news posts
+  - Users can pose questions that might be added to the FAQ
+  - Admins can add answers to the posed FAQ questions through the admin panel
 
 
 
 
-THIS PROJECT WAS MADE WITH LARAVEL:
+
+THIS PROJECT WAS MADE USING LARAVEL:
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
