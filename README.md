@@ -23,6 +23,9 @@ It is a professional dynamic webpage with the following features:
             - Body of the post
             - Multiple photos
             - Categories
+
+![upPost](https://user-images.githubusercontent.com/72804203/153925643-93e541dd-115b-4b6c-9b68-89dc1feca64f.JPG)
+
     
 ## Search engine
    - Users can search for the post they want with a search box
@@ -73,7 +76,19 @@ It is a professional dynamic webpage with the following features:
 
 ![contact](https://user-images.githubusercontent.com/72804203/153925376-ab20c384-e7fe-404a-99bf-64487d21f0d0.JPG)
 
-       
+## Admin
+   - Admins have full control over the webpage
+   - Admins can upload new posts
+   - Admins can edit their profile
+   - Admins can promote users
+   - Admins can edit posts
+   - Admins can review emails
+   - Admins can review FAQ
+ 
+![adminEdit](https://user-images.githubusercontent.com/72804203/153927574-fc6e7c81-983d-456b-8019-2907e9be813d.JPG)
+
+![reviewEmails](https://user-images.githubusercontent.com/72804203/153927594-5b7b0e77-60a5-4004-8de0-98bac9464f60.JPG)
+
 ## More features   
   - Admins can reply to the submitted contact forms through the admin panel, the replies will be mailed to the original sender
   - Users can leave comments on news posts
