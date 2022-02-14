@@ -6,6 +6,8 @@ It is a professional dynamic webpage with the following features:
         Visitors can create a new account
         Users may or may not be an administrator
         Only an administrator can promote another user to administrator status (or create a new user that is an admin)
+        ![login](https://user-images.githubusercontent.com/72804203/153921346-ed301b93-4719-47ab-b864-d3a336e49eab.JPG)
+
         
     Post
         Users can upload post
@@ -49,6 +51,12 @@ It is a professional dynamic webpage with the following features:
     Contact page
         Visitors can fill out a contact form
         The content of submitted forms will be sent to the administrators
+       
+    More features   
+    Admins can reply to the submitted contact forms through the admin panel, the replies will be mailed to the original sender
+    Users can leave comments on news posts
+    Users can pose questions that might be added to the FAQ
+    Admins can add answers to the posed FAQ questions through the admin panel
 
 
 
